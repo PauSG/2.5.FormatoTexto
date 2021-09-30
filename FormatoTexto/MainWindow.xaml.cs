@@ -60,10 +60,6 @@ namespace FormatoTexto
         private void EscribirTextBox_TextChanged(object sender, TextChangedEventArgs e)
         {   
             VerdeTextBlock.Text = EscribirTextBox.Text;
-            if(VerdeTextBlock.Text.Length > 80)
-            {
-                VerdeTextBlock.Text = VerdeTextBlock.Text.Substring(0, 80) + "...";
-            }
         }
 
     }

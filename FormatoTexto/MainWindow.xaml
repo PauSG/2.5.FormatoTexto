@@ -8,7 +8,7 @@
         Icon="assets/monitor_window.ico"
         Title="2.5.FormatoTexto" Height="450" Width="800">
     <Grid>
-        <TextBlock x:Name="VerdeTextBlock" Background="LemonChiffon" HorizontalAlignment="Left" Margin="91,285,0,0" TextWrapping="NoWrap" VerticalAlignment="Top" Height="46" Width="658" FontSize="16" TextAlignment="Center"/>
+        <TextBlock x:Name="VerdeTextBlock" TextTrimming="WordEllipsis" Background="LemonChiffon" HorizontalAlignment="Left" Margin="91,285,0,0" TextWrapping="NoWrap" VerticalAlignment="Top" Height="46" Width="658" FontSize="16" TextAlignment="Center"/>
         <TextBox x:Name="EscribirTextBox" HorizontalAlignment="Left" Height="91" Margin="91,128,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="167" TextChanged="EscribirTextBox_TextChanged"/>
         <TextBlock HorizontalAlignment="Left" Margin="91,101,0,0" TextWrapping="Wrap" Text="Texto" VerticalAlignment="Top" Height="22" Width="70" FontSize="16" Foreground="Black"/>
         <CheckBox x:Name="NegritaCheckBox" Content="Negrita" HorizontalAlignment="Left" Margin="325,128,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="14" Checked="NegritaCheckBox_Checked" Unchecked="NegritaCheckBox_Unchecked"/>
